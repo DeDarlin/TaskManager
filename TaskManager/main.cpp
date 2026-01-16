@@ -4,9 +4,6 @@
 
 int main()
 {
-	Console::DisableResize();
-	Console::LockConsoleBuffer(100, 30);
-
 	TaskManager app;
 	app.run();
 
